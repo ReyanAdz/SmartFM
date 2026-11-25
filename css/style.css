@@ -1,0 +1,50 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#eef1f5;color:#1d2330;font-size:16px}
+#app{max-width:980px;margin:0 auto;padding:28px 18px}
+h1{font-size:24px;margin:8px 0 12px}
+.muted{color:#6b7385}.small{font-size:13px}.center{text-align:center}
+.card{background:#fff;border-radius:14px;box-shadow:0 2px 10px rgba(20,30,60,.08);padding:24px;user-select:none}
+.card.narrow{max-width:620px;margin:40px auto}
+label{display:block;margin:12px 0 4px;font-weight:600;font-size:14px}
+label input,label select{display:block;width:100%;margin-top:4px;padding:8px 10px;border:1px solid #cdd3de;border-radius:8px;font-size:15px;font-weight:400}
+details{margin:14px 0}summary{cursor:pointer;color:#3b5bdb;font-weight:600}
+.hint{font-size:13px;color:#6b7385;margin:4px 0 8px}
+button{font:inherit;padding:9px 16px;border-radius:8px;border:1px solid #c5ccd8;background:#f6f7f9;cursor:pointer}
+button:hover:not(:disabled){background:#eceef2}button:disabled{opacity:.4;cursor:default}
+button.primary{background:#3b5bdb;border-color:#3b5bdb;color:#fff}button.primary:hover{background:#3049b8}
+button.big{padding:12px 26px;font-size:17px;margin-top:14px}
+button.link{border:none;background:none;color:#3b5bdb;margin-top:16px}
+.row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+hr{border:none;border-top:1px solid #e3e6ec;margin:20px 0}
+.pill{display:inline-block;background:#e7ecff;color:#3049b8;font-weight:600;font-size:13px;padding:4px 10px;border-radius:99px}
+.instr{background:#f6f8fc;border-left:4px solid #3b5bdb;padding:12px 14px;border-radius:6px;line-height:1.5}
+.filecard{display:flex;align-items:center;gap:14px;padding:12px 14px;background:#f6f8fc;border-radius:10px;margin-bottom:16px}
+.fname{font-weight:700;font-size:18px;word-break:break-all}
+.progress{margin-left:auto;color:#6b7385;font-size:14px;white-space:nowrap}
+.ext{display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:26px;padding:0 6px;border-radius:5px;font-size:11px;font-weight:700;color:#fff;background:#8792a8}
+.ext.lg{min-width:52px;height:40px;font-size:13px}
+.ext-pdf{background:#d9480f}.ext-docx{background:#1971c2}.ext-xlsx{background:#2b8a3e}.ext-jpg,.ext-png{background:#9c36b5}.ext-exe,.ext-dmg{background:#495057}
+.browser{border:1px solid #d6dbe4;border-radius:10px;overflow:hidden}
+.bar{display:flex;align-items:center;gap:12px;padding:8px 10px;background:#f6f7f9;border-bottom:1px solid #e3e6ec}
+.bar .up{padding:5px 10px;font-size:14px}
+.crumbs{font-size:15px}.crumb{color:#3b5bdb;cursor:pointer;padding:2px 3px;border-radius:4px}.crumb:hover{background:#e7ecff}.crumb:last-child{color:#1d2330;font-weight:600}
+.sep{color:#9aa2b1}
+.items{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px;padding:12px;min-height:220px;align-content:start}
+.item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;font-size:14px;word-break:break-all}
+.item.folder{cursor:pointer;font-weight:600}.item.folder:hover{background:#eef2ff}
+.item.file{color:#6b7385}.item.file .ext{min-width:36px;height:22px;font-size:10px;opacity:.75}
+.item.file.clickable{cursor:pointer;color:#1d2330}.item.file.clickable .ext{opacity:1}.item.file.clickable:hover{background:#eef2ff}
+.item.wrong{background:#ffe3e3!important}
+.empty{color:#9aa2b1;padding:8px}
+.savebar{display:flex;align-items:center;justify-content:space-between;margin-top:14px;gap:12px}
+.sugg{border:2px solid #b8c6ff;background:#f5f7ff;border-radius:10px;padding:12px;margin-bottom:14px}
+.sugg-h{font-weight:700;color:#3049b8;margin-bottom:8px}
+.sugg-item{display:flex;width:100%;justify-content:space-between;align-items:center;gap:12px;text-align:left;margin-bottom:6px;background:#fff;border-color:#c9d3fb}
+.sugg-item:hover{background:#e7ecff!important}
+.spath{display:flex;align-items:center;gap:8px;font-weight:600}.spath svg{width:24px;height:24px;flex:none}
+.why{color:#6b7385;font-size:13px;text-align:right}
+.autobox{text-align:center;padding:40px 0}
+.toast{text-align:center;padding:50px 10px;font-size:18px;color:#2b8a3e}
+.toastpath{display:flex;width:fit-content;align-items:center;gap:10px;margin:14px auto 0;padding:10px 18px;background:#ebfbee;border-radius:10px;color:#1d2330;font-weight:700;font-size:20px}
+.q{font-size:40px;font-weight:700;margin:20px 0}
+.ans{font-size:28px;width:180px;text-align:center;padding:8px;border:2px solid #cdd3de;border-radius:10px;margin-bottom:12px}
